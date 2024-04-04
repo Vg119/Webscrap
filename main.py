@@ -14,7 +14,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
-driver.get("https://www.lenskart.com/stores/location/bareilly")
+driver.get("https://www.lenskart.com/stores/location/bengaluru")
 # driver.implicitly_wait(0.5)
 
 links = driver.find_elements(By.CLASS_NAME, "StoreCard_name__mrTXJ")
